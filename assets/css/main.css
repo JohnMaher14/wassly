@@ -2216,7 +2216,7 @@ footer {
   }
 
   .input__group {
-    margin: 30px auto 0px;
+    margin: 10px 0 15px 0;
   }
 
   .input__group input[type="email"] {
@@ -2233,6 +2233,11 @@ footer {
 
   .input__group button i {
     font-size: 14px;
+  }
+}
+@media screen and (min-width:1024px) {
+  .btn_container{
+    margin: 40px 0;
   }
 }
 .owl-nav.disabled{
